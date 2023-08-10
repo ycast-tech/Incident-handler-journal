@@ -2,7 +2,7 @@
 
 In this project, I will review the details of a security incident and document the incident using my incident handler's journal. <br>
 Throughout **Sound the Alarm: Detection and Response** course, I was given the opportunity to apply my documentation skills using my incident handler's journal. With this journal, I can record information about the experiences I will have analyzing security incident scenarios through the course activities.
-
+<img src="images/detectionimage.png" width=100 align=right>
 
 #### Scenario 1
 

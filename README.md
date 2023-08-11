@@ -15,8 +15,8 @@ The attackers were able to gain access into the company's network by using targe
 Once the attackers gained access, they deployed their ransomware, which encrypted critical files. The company was unable to access critical patient data, causing major disruptions in their business operations. The company was forced to shut down their computer systems and contact several organizations to report the incident and receive technical assistance.
 
 
-| Date<br> 08/08/2023 <br>Tuesday 09:00 | Entry<br> 1 |
-| :---: | :---: |
+| Date<br> 08/08/2023 <br>Tuesday 09:00 | Entry 1 |
+| :--- | :--- |
 | Description | Documenting a cybersecurity incident     |
 |   Tools Used   | none     |
 | The 5 Ws     | - **Who caused the incident?:** A recognized group of unethical hackers. <br> - **What happened?:** A ransomware security Insident <br> - **When did the incident occur?:** Tuesday 09:00 <br> - **Where did the incident happen?:** At a small US health clinic <br> - **Why did the incident happen?:** The incident happened because the attackers were able to gain access into the company's network by using targeted phishing emails, which were sent to several employees of the company. The emails contained malicious attachments that once downloaded gave control to the attackers. Once the attackers had control, they encripted critical files and leaft a note demanding a large sum of money.     |               

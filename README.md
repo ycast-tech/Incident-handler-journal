@@ -14,16 +14,13 @@ The attackers were able to gain access into the company's network by using targe
 
 Once the attackers gained access, they deployed their ransomware, which encrypted critical files. The company was unable to access critical patient data, causing major disruptions in their business operations. The company was forced to shut down their computer systems and contact several organizations to report the incident and receive technical assistance.
 
-| Date | Entry |
+
+| Date<br> 08/08/2023 <br>Tuesday 09:00 | Entry<br> 1 |
 | :---: | :---: |
-| Description    |     B |
-|   Tools Used   | b     |
-| The 5 Ws     | b     |
-| Additional notes     | b     |
-
-
-
-
+| Description | Documenting a cybersecurity incident     |
+|   Tools Used   | none     |
+| The 5 Ws     | - **Who:** A recognized group of unethical hackers. <br> - **What happened?:** A ransomware security Insident <br> - **When:** <br> - **Where:** At a small US health clinic <br> - **Why:**      |               
+| Additional notes | TBA    |
 
 
 

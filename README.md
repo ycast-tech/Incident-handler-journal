@@ -18,8 +18,8 @@ Once the attackers gained access, they deployed their ransomware, which encrypte
 | :---: | :---: |
 | Description    |     B |
 |   Tools Used   | b     |
-| a     | b     |
-| a     | b     |
+| The 5 Ws     | b     |
+| Additional notes     | b     |
 
 
 

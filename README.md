@@ -4,7 +4,7 @@ In this project, I will review the details of a security incident and document t
 Throughout **Sound the Alarm: Detection and Response** course, I was given the opportunity to apply my documentation skills using my incident handler's journal. With this journal, I can record information about the experiences I will have analyzing security incident scenarios through the course activities.
 <img src="images/detectionimage.png" width=100 align=right>
 
-#### Scenario 1
+### Scenario 1
 
 A small U.S. health care clinic specializing in delivering primary-care services experienced a security incident on a Tuesday morning, at approximately 9:00 a.m. Several employees reported that they were unable to use their computers to access files like medical records. Business operations shut down because employees were unable to access the files and software needed to do their job.
 
@@ -23,7 +23,13 @@ Once the attackers gained access, they deployed their ransomware, which encrypte
 | Additional notes | 1. How can the company prevent future phishing attacks? <br> 2. Who should the company contact to report this incident? <br> 3. Where should the company seek help?     |
 
 
+### Scenario 2
 
+You are a level one security operations center (SOC) analyst at a financial services company. You have received an alert about a suspicious file being downloaded on an employee's computer. 
+
+You investigate this alert and discover that the employee received an email containing an attachment. The attachment was a password-protected spreadsheet file. The spreadsheet's password was provided in the email. The employee downloaded the file, then entered the password to open the file. When the employee opened the file, a malicious payload was then executed on their computer. 
+
+You retrieve the malicious file and create a SHA256 hash of the file. You might recall from a previous course that a hash function is an algorithm that produces a code that can't be decrypted. Hashing is a cryptographic method used to uniquely identify malware, acting as the file's unique fingerprint.
 
 
 

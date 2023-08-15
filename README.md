@@ -31,11 +31,33 @@ You investigate this alert and discover that the employee received an email cont
 
 You retrieve the malicious file and create a SHA256 hash of the file. You might recall from a previous course that a hash function is an algorithm that produces a code that can't be decrypted. Hashing is a cryptographic method used to uniquely identify malware, acting as the file's unique fingerprint.
 
+|Ticket ID| Alert Message | Severity | Details | Ticket Status |
+| :--- | :--- |:--- |:--- | :--- |
+| A-2703 | SERVER-MAIL <br>Phishing attempt possible download of malware | Medium | The user may have opened a malicious email and aopened attachments or clicked links. | `Investigating`
+
+**Additional information**
+**Known malicious file hash:**
+54e6ea47eb04634d3e87fd7787e2136ccfbcc80ade34f246a12cf93bab527f6b
+
+**Email:**
+From: Def Communications <76tguyhh6tgftrt7tg.su> <114.114.114.114>
+Sent: Wednesday, July 20, 2022 09:30:14 AM
+To: <hr@inergy.com> <176.157.125.93>
+Subject: Re: Infrastructure Egnieer role
+
+Dear HR at Ingergy,
+I am writing for to express my interest in the engineer role posted from the website.
+There is attached my resume and cover letter. For privacy, the file is password protected. Use
+the password paradise10789 to open.
+Thank you,
+Clyde West
+Attachment: filename="bfsvc.exe"
+
 | Date<br> 08/13/23 | Entry 2 |
 | :--- | :--- |
 | Description     | Analyzing an artifact using VirusTotal     |
 | Tools Used     |  VirusTotal    |
-| Details     |  An employee received an email contining a file attachment, the employee downloads the file and miltiple unauthoried executable files appear on the employee's computer. An Intrusion Detection System (IDS) detects the files and sends out an alert.<br> Upon investigation of the file hash, it is descovered that the file hash was found to be MALICIOUS by over 50 vendors on VirusTotal.    |
+| Details     |  Unauthoried executable files appear on the employee's computer. An Intrusion Detection System (IDS) detects the files and sends out an alert.<br> Upon investigation of the file hash, it is descovered that the file hash was found to be MALICIOUS by over 50 vendors on VirusTotal.    |
 | Additional notes     | SHA256 file hash: 54e6ea47eb04634d3e87fd7787e2136ccfbcc80ade34f246a12cf93bab527f6b<br> Here is a timeline of the events leading up to this alert:<br>**1:11 p.m.:** An employee receives an email containing a file attachment.<br>**1:13 p.m.:** The employee successfully downloads and opens the file.<br>**1:15 p.m.:** Multiple unauthorized executable files are created on the employee's computer.<br>**1:20 p.m.:** An intrusion detection system detects the executable files and sends out an alert to the SOC.     |
 
 
